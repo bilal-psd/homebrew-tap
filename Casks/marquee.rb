@@ -7,7 +7,7 @@ cask "marquee" do
   desc "Menu bar music controller for Apple Music and Spotify"
   homepage "https://github.com/bilal-psd/Marquee"
 
-  depends_on macos: ">= :ventura"
+  depends_on macos: :ventura
 
   app "Marquee.app"
 
