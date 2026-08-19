@@ -1,6 +1,6 @@
 cask "marquee" do
-  version "1.0.0"
-  sha256 "3e1097ded212b44ca945a7940e252fc09c04ea2bb7cc25ddd649dc94d62ea7df"
+  version "1.0.1"
+  sha256 "8790ee96e4185ea9ad7732cca61b1fa3bd6b1aa90388e0fbbd58f3db956a8284"
 
   url "https://github.com/bilal-psd/Marquee/releases/download/v#{version}/Marquee-#{version}.zip"
   name "Marquee"
