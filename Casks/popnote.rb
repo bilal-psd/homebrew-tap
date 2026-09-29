@@ -1,6 +1,6 @@
 cask "popnote" do
   version "1.0.0"
-  sha256 "f86fa8ec557249791398a87d5b31111809c6990bdb592eded45d0bb812e5e1cc"
+  sha256 "a99f6e4242005d7dc6e8b436bf134657bc5b1a5de3423ede2ad315b156bc71f7"
 
   url "https://github.com/bilal-psd/popnote/releases/download/v#{version}/Popnote.zip"
   name "Popnote"
