@@ -20,7 +20,8 @@ cask "popnote" do
 
   caveats <<~EOS
     Popnote isn't notarized by Apple, so macOS blocks it the first time it opens.
-    Open it once, then go to System Settings > Privacy & Security and click
-    "Open Anyway". You only need to do this once per install.
+    To allow it, run:
+      xattr -d com.apple.quarantine /Applications/Popnote.app
+    Run this again after each upgrade.
   EOS
 end
